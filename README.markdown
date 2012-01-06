@@ -4,13 +4,13 @@ Unobtrusively add markdown preview to textareas
 
 ## Installation
 
-1. Add the following line to your Gemfile
+Add the following line to your Gemfile
 
 ```
 gem 'md_preview'
 ```
 
-2. For Rails 3.1 and greater, the files will be added to the asset pipeline:
+For Rails 3.1 and greater, the files will be added to the asset pipeline:
 
 **app/assets/javascripts/application.js**
 
@@ -19,7 +19,7 @@ gem 'md_preview'
 //= require jquery.elastic # Optional: Include if you want the textareas to fit content
 ```
 
-3. Optionally include the default stylesheet:
+Optionally include the default stylesheet:
 
 **app/assets/stylesheets/application.css**
 
