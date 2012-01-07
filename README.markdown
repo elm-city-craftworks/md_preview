@@ -1,6 +1,7 @@
 # Markdown Preview for Rails
 
-Unobtrusively add markdown preview to textareas
+Unobtrusively add markdown preview to textareas. This gem currently only works with Rails 3.1.x 
+with the asset pipeline enabled.
 
 ## Installation
 
