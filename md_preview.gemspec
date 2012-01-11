@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.description = "Rails plugin to unobtrusively add markdown preview to textareas"
 
   s.files = Dir["{app,config,db,lib,vendor}/**/*"] +
-    %w{Rakefile README.markdown LICENSE COPYING}
+    %w{Rakefile README.markdown LICENSE}
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails",     "~> 3.1.3"
