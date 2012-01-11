@@ -5,6 +5,8 @@ module MdPreview
     def parse(content)
       return if content.blank?
 
+      return MdPreview::CustomParser.parse(content) if MdPreview.const_defined?(:CustomParser)
+
       markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML,
         :autolink            => true,
         :space_after_headers => true,
