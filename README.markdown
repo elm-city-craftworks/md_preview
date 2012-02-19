@@ -62,7 +62,7 @@ Contact Jordan through [GitHub (@jordanbyron)](https://github.com/jordanbyron) o
 
 ## Authorship
 
-Originally this code was written by [Chap Ambrose](http://www.chapambrose.com/) for Mendicant University's [University-Web](https://github.com/mendicant-university/university-web). Later it was made into a plugin by [Jordan Byron](http://jordanbyron.com) so it could be easily included in new rails projects.
+Originally this code was written by [Chap Ambrose](http://www.chapambrose.com/) for Mendicant University's [University-Web](https://github.com/mendicant-university/university-web). Later it was _gemified_ by [Jordan Byron](http://jordanbyron.com) so it could be easily included in new rails projects.
 
 ## License
 
