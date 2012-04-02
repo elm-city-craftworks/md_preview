@@ -1,3 +1,5 @@
+require "redcarpet"
+
 module MdPreview
   module Parser
     extend self
