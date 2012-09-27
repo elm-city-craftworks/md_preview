@@ -1,7 +1,7 @@
 # Markdown Preview for Rails
 
-Unobtrusively add markdown preview to textareas. This gem currently only works with Rails 3.1.x 
-with the asset pipeline enabled.
+Unobtrusively add markdown preview to textareas. This gem currently only works
+in Rails >= 3.1.x with the asset pipeline enabled.
 
 ## Installation
 
@@ -38,18 +38,22 @@ On any textarea, just set the `data-preview` attribute to `true`
 
 ## Contributing
 
-Features and bugs are tracked through [Github Issues](https://github.com/mendicant-university/md_preview/issues).
+Features and bugs are tracked through
+[Github Issues](https://github.com/elm-city-craftworks/md_preview/issues).
 
 Contributors retain copyright to their work but must agree to release their
-contributions under the same terms as this project. For details, please see the LICENSE file.
+contributions under the same terms as this project. For details, please see the
+LICENSE file.
 
 If you would like to help with developing MD Preview, please get in touch!
-Contact Jordan through [GitHub (@jordanbyron)](https://github.com/jordanbyron) or [Twitter (@jordan_byron)](http://twitter.com/jordan_byron)
+Contact Jordan through [GitHub (@jordanbyron)](https://github.com/jordanbyron)
+or [Twitter (@jordan_byron)](http://twitter.com/jordan_byron)
 
 ### Submitting a Pull Request
 
 1. If a ticket doesn't exist for your bug or feature, create one on GitHub.
-    - **NOTE:** Don't be afraid to get feedback on your idea before you begin development work. In fact it is encouraged.
+    - **NOTE:** Don't be afraid to get feedback on your idea before you begin
+      development work. In fact it is encouraged.
 2. Fork the project.
 3. Create a topic branch.
 4. Implement your feature or bug fix.
@@ -62,7 +66,11 @@ Contact Jordan through [GitHub (@jordanbyron)](https://github.com/jordanbyron) o
 
 ## Authorship
 
-Originally this code was written by [Chap Ambrose](http://www.chapambrose.com/) for Mendicant University's [University-Web](https://github.com/mendicant-university/university-web). Later it was _gemified_ by [Jordan Byron](http://jordanbyron.com) so it could be easily included in new rails projects.
+Originally this code was written by [Chap Ambrose](http://www.chapambrose.com/)
+for Mendicant University's
+[University-Web](https://github.com/mendicant-original/university-web). Later it
+was _gemified_ by [Jordan Byron](http://jordanbyron.com) so it could be easily
+included in new rails projects.
 
 ## License
 
@@ -73,7 +81,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
----
-
-MD Preview - a [Mendicant University](http://mendicantuniversity.org) project

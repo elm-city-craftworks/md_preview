@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.name        = "md_preview"
   s.version     = MdPreview::VERSION
   s.authors     = ["Jordan Byron"]
-  s.email       = ["jordan@ducksoupsoftware.com"]
-  s.homepage    = "https://github.com/mendicant-university/md_preview"
+  s.email       = ["jordan.byron@gmail.com"]
+  s.homepage    = "https://github.com/elm-city-craftworks/md_preview"
   s.summary     = "Markdown preview for Rails"
   s.description = "Rails plugin to unobtrusively add markdown preview to textareas"
 
