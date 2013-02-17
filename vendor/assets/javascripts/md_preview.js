@@ -16,7 +16,7 @@ var MdPreview = {};
   	});
 
   	// override tab clicks
-  	$('div.markdown-preview ul.tabs li:not(.label) a').live('click', function(e) {
+  	$(document).on('click', 'div.markdown-preview ul.tabs li:not(.label) a', function(e) {
   		var tabs = $(this).parents('ul').find('li');
   		var tabContents = $(this).parents('ul').next('.tab-container').find('.tab-content');
 
@@ -40,7 +40,7 @@ var MdPreview = {};
   	});
 
   	// override links in preview
-  	$('tab-container .preview a').live('click', function(e){
+  	$(document).on('click', 'tab-container .preview a', function(e){
       window.open(e.target.href);
       e.preventDefault();
   	});
